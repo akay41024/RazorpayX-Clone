@@ -7,7 +7,6 @@ import { LuIndianRupee, LuRefreshCw } from "react-icons/lu";
 import { BsBank } from "react-icons/bs";
 import { FaLongArrowAltRight } from "react-icons/fa";
 
-
 function Home() {
   return (
     <>
@@ -63,7 +62,7 @@ function Home() {
               (1)
             </p>
           </div>
-          <div className=" flex w-full rounded-md bg-slate-800/80 text-white">
+          <div className=" flex w-full rounded-md bg-[#171D26] text-white">
             <div className="flex w-40 ">
               <div className="h-[150px] overflow-hidden">
                 <svg
@@ -87,16 +86,37 @@ function Home() {
               <h1 className="p-1 mt-4 font-mullish font-semibold">
                 Open Your RozarpayX account.
               </h1>
-              <p className="text-[11px] text-gray-500/95 font-semibold">Don't let bankache come in the way of growth. Apply for your RazorpayX account with a few details</p>
-
-              <button
-              type="button"
-              class="text-white bg-blue-500/65 hover:bg-blue-600 focus:ring-4 focus:outline-none focus:ring-blue-300 font-semibold rounded text-[12px] px-3 py-2 text-center inline-flex items-center"
-            >
-              Start Appliaction <span className="ml-2"><FaLongArrowAltRight/></span>
-            </button>
+              <p className="text-[11px] text-gray-500/95 font-semibold">
+                Don't let bankache come in the way of growth. Apply for your
+                RazorpayX account with a few details
+              </p>
+              <div className="flex gap-1 mt-2">
+                <div className="w-[24%] bg-gray-200 rounded-full h-1 dark:bg-gray-700">
+                  <div className="bg-blue-600 h-1 rounded-full w-[45%]"></div>
+                </div>
+                <div className="w-[24%] bg-gray-200 rounded-full h-1 dark:bg-gray-700"></div>
+                <div className="w-[24%] bg-gray-200 rounded-full h-1 dark:bg-gray-700"></div>
+                <div className="w-[20%] bg-gray-200 rounded-full h-1 dark:bg-gray-700"></div>
+              </div>
+              <div className="flex justify-between mt-2">
+                <button
+                  type="button"
+                  className="text-white bg-blue-500/65 hover:bg-blue-600 focus:ring-4 focus:outline-none focus:ring-blue-300 font-semibold rounded text-[12px] px-3 py-2 text-center inline-flex items-center"
+                >
+                  Start Appliaction{" "}
+                  <span className="ml-2">
+                    <FaLongArrowAltRight />
+                  </span>
+                </button>
+                <p className="mr-6">0/4</p>
+              </div>
             </div>
+            
           </div>
+          <div className="w-full mt-4">
+              <hr className="bg-green-400 h-[0.5] border border-transparent"/>
+              
+            </div>
         </div>
       </div>
     </>
