@@ -111,12 +111,39 @@ function Home() {
                 <p className="mr-6">0/4</p>
               </div>
             </div>
-            
           </div>
           <div className="w-full mt-4">
-              <hr className="bg-green-400 h-[0.5] border border-transparent"/>
-              
+            <hr className="bg-green-400 h-[0.5] border border-transparent" />
+            <div class="max-w-7xl">
+              <div class="bg-[#171D26] p-4 rounded-sm mb-6">
+                <div class="flex items-center justify-between">
+                  <span class="ml-2 text-white font-semibold w-72">
+                    Amazon Instant <br /> Settlements
+                  </span>
+                  <div className="w-full">
+                    <div className="flex gap-2">
+                      <input
+                        type="radio"
+                        className="bg-blue-500"
+                        defaultChecked
+                      />
+                      <p class="mt-2 text-[12px] text-gray-400">
+                        Let's get you started. <br />
+                        Complete your application and get instant access to your
+                        Amazon payouts
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <button
+                  type="button"
+                  className="text-white bg-blue-500/65 hover:bg-blue-600 focus:ring-4 focus:outline-none focus:ring-blue-300 font-semibold rounded text-[12px] px-3 py-2 ml-56 mb-6 text-center inline-flex items-center"
+                >
+                  APPLY NOW
+                </button>
+              </div>
             </div>
+          </div>
         </div>
       </div>
     </>
