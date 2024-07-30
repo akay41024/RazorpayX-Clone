@@ -4,6 +4,9 @@ import { FaSearch } from "react-icons/fa";
 import { HiOutlineSpeakerphone } from "react-icons/hi";
 import { FiUserCheck } from "react-icons/fi";
 import { LuIndianRupee, LuRefreshCw } from "react-icons/lu";
+import { BsBank } from "react-icons/bs";
+import { FaLongArrowAltRight } from "react-icons/fa";
+
 
 function Home() {
   return (
@@ -53,10 +56,47 @@ function Home() {
             🎉You're all caught up. There are no more items pending on you.
           </div>
           <div className="flex mt-3">
-            <h2 className="text-white font-semibold text-[15px]">Onboarding updates</h2>
-            <p className="text-gray-500/80 text-[11px] text-center ml-2 relative top-1">(1)</p>
+            <h2 className="text-white font-semibold text-[15px]">
+              Onboarding updates
+            </h2>
+            <p className="text-gray-500/80 text-[11px] text-center ml-2 relative top-1">
+              (1)
+            </p>
           </div>
-          
+          <div className=" flex w-full rounded-md bg-slate-800/80 text-white">
+            <div className="flex w-40 ">
+              <div className="h-[150px] overflow-hidden">
+                <svg
+                  viewBox="0 0 500 150"
+                  preserveAspectRatio="none"
+                  className="h-full w-full"
+                >
+                  <path
+                    d="M35.26,-4.42 C609.20,107.08 630.07,62.67 40.34,150.50 L-11.00,166.30 L-2.54,-1.45 Z"
+                    className="stroke-none fill-blue-600"
+                  ></path>
+                </svg>
+                <BsBank className="text-7xl absolute top-60 ml-8" />
+                <h2 className="text-white font-mullish text-[15px] absolute top-80 ml-10">
+                  Current <br />
+                  Account
+                </h2>
+              </div>
+            </div>
+            <div className="w-full">
+              <h1 className="p-1 mt-4 font-mullish font-semibold">
+                Open Your RozarpayX account.
+              </h1>
+              <p className="text-[11px] text-gray-500/95 font-semibold">Don't let bankache come in the way of growth. Apply for your RazorpayX account with a few details</p>
+
+              <button
+              type="button"
+              class="text-white bg-blue-500/65 hover:bg-blue-600 focus:ring-4 focus:outline-none focus:ring-blue-300 font-semibold rounded text-[12px] px-3 py-2 text-center inline-flex items-center"
+            >
+              Start Appliaction <span className="ml-2"><FaLongArrowAltRight/></span>
+            </button>
+            </div>
+          </div>
         </div>
       </div>
     </>
