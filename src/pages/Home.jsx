@@ -31,16 +31,32 @@ function Home() {
               alt="Xlogo"
               className="w-4"
             />
-            <h2 className="text-white font-mullish text-[12px] ml-2">RazorpayX Lite</h2>
-            <p className="text-gray-400 font-mullish text-[10px]">as of a few seconds ago</p>
-            <LuRefreshCw className="text-white text-[11px] relative top-1"/>
+            <h2 className="text-white font-mullish text-[12px] ml-2">
+              RazorpayX Lite
+            </h2>
+            <p className="text-gray-400 font-mullish text-[10px]">
+              as of a few seconds ago
+            </p>
+            <LuRefreshCw className="text-white text-[11px] relative top-1" />
           </div>
           <div className="flex items-center mt-2">
-              <LuIndianRupee className="text-gray-400 text-[10px]" />
-              <span className="text-white text-lg font-semibold font-mullish">
-                100<span className="text-gray-400 text-[10px]">.09</span>
-              </span>
-            </div>
+            <LuIndianRupee className="text-gray-400 text-[10px]" />
+            <span className="text-white text-lg font-semibold font-mullish">
+              100<span className="text-gray-400 text-[10px]">.09</span>
+            </span>
+            <div class="inline-block h-[25px] ml-48 my-2 w-0.5 self-stretch bg-neutral-100/40"></div>
+            <span className="flex text-[12px] text-blue-500 cursor-pointer ml-3">
+              + Add balance
+            </span>
+          </div>
+          <div class="border-dotted border-2 border-gray-500/80 mt-6 rounded text-gray-400/80 p-3 font-light text-[12px]">
+            🎉You're all caught up. There are no more items pending on you.
+          </div>
+          <div className="flex mt-3">
+            <h2 className="text-white font-semibold text-[15px]">Onboarding updates</h2>
+            <p className="text-gray-500/80 text-[11px] text-center ml-2 relative top-1">(1)</p>
+          </div>
+          
         </div>
       </div>
     </>
