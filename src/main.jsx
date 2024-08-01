@@ -20,16 +20,16 @@ const routes = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<App />}>
       <Route path="/" element={<Home />} />
-      <Route path="/payouts" element={<Payout />} />
-      <Route path='/account-statement' element={<Account/>}/>
-      <Route path='/contacts' element={<Contacts />}/>
-      <Route path='/loans' element={<Loans />}/>
-      <Route path='/vendor-payments' element={<VendorPayments />}/>
-      <Route path='/vendor-payments/invoice' element={<Invoice />}/>
-      <Route path='/tax-payments' element={<TaxPayments />}/>
-      <Route path='/payout-links' element={<PayoutLinks />}/>
-      <Route path='/payroll' element={<Payroll />}/>
-      <Route path='/reports' element={<Reports />}/>
+      <Route path="payouts" element={<Payout />} />
+      <Route path='account-statement' element={<Account/>}/>
+      <Route path='contacts' element={<Contacts />}/>
+      <Route path='loans' element={<Loans />}/>
+      <Route path='vendor-payments' element={<VendorPayments />}/>
+      <Route path='vendor-payments/invoice' element={<Invoice />}/>
+      <Route path='tax-payments' element={<TaxPayments />}/>
+      <Route path='payout-links' element={<PayoutLinks />}/>
+      <Route path='payroll' element={<Payroll />}/>
+      <Route path='reports' element={<Reports />}/>
     </Route>
 
   )
